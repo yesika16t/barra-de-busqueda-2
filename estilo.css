@@ -1,0 +1,62 @@
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+body{
+  font-family: sans-serif;
+}
+.search-bar{
+  border: solid 1px #1b091a;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 100px auto;
+}
+.search-bar:focus-within{
+  border: solid 1px #000000;
+  box-shadow: 10px 5px 5px rgb(61, 233, 87);
+}
+.search-bar input{
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+flex: 1;
+}
+.search-bar .actions{
+  display: flex;
+  gap: 5px;
+}
+.search-bar .actions button{
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  color: #000000;
+}
+.search-bar .actions button:hover{
+  color: #07af29;
+}
